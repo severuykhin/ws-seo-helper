@@ -1,0 +1,5 @@
+.app .column {
+    width: 50%;
+    flex-grow: 0;
+    flex-basis: 50%;
+}
