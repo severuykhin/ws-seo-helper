@@ -20,7 +20,7 @@ export default function reportsReducer(state = initialState, action) {
 
     case SET_REPORT:
       newState = { ...state };
-      newState.items = [ ...state.items, ...payload ];
+      newState.items = [ ...payload ];
       return newState;
 
     case SET_STORY:

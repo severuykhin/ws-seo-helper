@@ -33652,7 +33652,7 @@ function reportsReducer() {
 
     case _reports.SET_REPORT:
       newState = (0, _extends3.default)({}, state);
-      newState.items = [].concat((0, _toConsumableArray3.default)(state.items), (0, _toConsumableArray3.default)(payload));
+      newState.items = [].concat((0, _toConsumableArray3.default)(payload));
       return newState;
 
     case _reports.SET_STORY:
